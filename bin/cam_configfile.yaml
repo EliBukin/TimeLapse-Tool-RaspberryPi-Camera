@@ -1,0 +1,13 @@
+path_vars:
+  ddest_photo_day: /media/pi/samsung_ssd/timelapse/
+  ndest_photo_night: /media/pi/samsung_ssd/timelapse/
+  dest_location: ../timelapse/*
+  ineligible_files: /media/pi/samsung_ssd/ineligible_files/
+day_config:
+  dinterval: 1
+  dlight_low_limit: 240
+night_config:
+  ninterval: 1
+  nlight_low_limit: 650
+camera_parameters:
+  resolution: 2592, 1944
